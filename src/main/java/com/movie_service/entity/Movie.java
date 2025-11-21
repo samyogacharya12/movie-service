@@ -20,6 +20,7 @@ public class Movie {
     private Integer releaseYear;
 
     @Enumerated(EnumType.STRING)
+    @Column(name = "genre")
     private Genre genre;
 
 
